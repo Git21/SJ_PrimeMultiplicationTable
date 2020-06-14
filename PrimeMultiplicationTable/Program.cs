@@ -11,7 +11,7 @@ namespace PrimeMultiplicationTable
             int number = 0;
             while (true)
             {
-                Console.Write("Enter count of Prime Numbers Multiplication Table: ");
+                Console.Write("Enter size of Prime Numbers Multiplication Table: ");
                 if (Int32.TryParse(Console.ReadLine(), out number))
                 {
                     if (number >= 1)
